@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Motivos para eu te amar</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body class="body">
+    <main class="container main">
+            <p class="titulo__pagina"> Motivos para eu te amar </p>
+        <section class="divisor">
+            <div class="divisor__line"></div>
+            <img src="img/fade_bar.svg" alt="Visual bar" class="divisor__bar">
+            <div class="divisor__line"></div>
+        </section>
+        <h1 class="page-title">Clique em <span class="page-title__emphasis">Um motivo</span></h1>
+        <section class="dashboard">
+            <ul class="dashboard__items">
+                <li class="dashboard__items__item" id="game-1">
+                    <div class="dashboard__item__img">
+                        <img src="img/dia1.jpg" alt="Mô e VH">
+                    </div>
+                    <p class="dashboard__item__name" id="nome-1">Motivo 1</p>
+                    <a onclick="alterarStatus(1); alterarNome(1)" href="#" class="dashboard__item__button">Descobrir</a>
+                </li>
+                <li class="dashboard__items__item" id="game-2">
+                    <div class="dashboard__item__img">
+                        <img src="img/dia2.jpg" alt="Capa jogo Ticket to Ride">
+                    </div>
+                    <p class="dashboard__item__name" id="nome-2">Motivo 2</p>
+                    <a onclick="alterarStatus(2); alterarNome(2)" href="#" class="dashboard__item__button">Descobrir</a>
+                </li>
+                <li class="dashboard__items__item" id="game-3">
+                    <div class="dashboard__item__img dashboard__item__img--rented">
+                        <img src="img/dia3.jpg" alt="Capa jogo Takenoko">
+                    </div>
+                    <p class="dashboard__item__name" id="nome-3">Motivo 3</p>
+                    <a onclick="alterarStatus(3); alterarNome(3)" href="#" class="dashboard__item__button dashboard__item__button--return">Descobrir</a>
+                </li>
+            </ul>
+        </section>
+        <img src="img/hachuras.svg" alt="Visual hachuras" class="hachuras">
+    </main>
+
+    <script src="js/app.js"></script>
+</body>
+
+</html>
